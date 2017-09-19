@@ -1,0 +1,1099 @@
+DB2 Version 11.1, 5622-044 (c) Copyright IBM Corp. 2015
+Licensed Material - Program Property of IBM
+IBM DATABASE 2 Catalog Analysis and Repair Tool
+
+Please use single quote for delimited name
+
+
+*****************************************************************
+Table: HENRIK  .CATTABLE   (TABLE)
+
+-----------------------------------------------------------------
+TABLE PACKED DESCRIPTOR:
+
+
+       PACKED DESCRIPTOR HEADER
+       ------------------------
+
+ db2cat generated pd       : N
+ Length                    : 6976
+ Version                   : 0x1400
+ Default schema length     : 8 
+ Default schema            : HLOESER 
+ No. of rows               : 10
+ No. of pages for table    : 1
+ No. of meta pages         : 0
+ No. of pages in the file  : 1
+ No. of overflow records   : 0
+ Offset to index info.     : 2344
+ Offset to text index info.: 0
+ No. of indexes            : 3
+ No. of not enforced keys  : 0
+ No. of xml indexes        : 0
+ No. of text indexes       : 0
+ Total no. of columns      : 6
+ Number of column desc     : 6
+ Seq ID of identity column : 0
+ Seq ID of random tbl hash : 0
+
+ Read only                 : 0
+ Materialization           : 0
+ Check Option              : 0
+ Create time               : {2017-07-25-18.48.25.404124}
+ Alter time                : {2017-07-25-18.48.27.488552}
+ Invalidate time           : {2017-07-25-18.48.27.548376}
+ Last regeneration time    : {2017-07-25-18.48.25.404124}
+ Instantiation time of temp table   : {0000-00-00-00.00.00.000000}
+ Data Capture              : N
+ Table Composite Codepage  : 1208
+ Default collation name    : IDENTITY
+ Default collation ID in hex: B'00 00 00 02 FF 00 FF FF 
+ Default order-by collation name: IDENTITY
+ Default order-by collation ID in hex: B'00 00 00 02 FF 00 FF FF 
+ CCSID UNICODE in 
+      non-unicode database : N
+ Table CCSID ASCII         : N
+ Table CCSID UNICODE       : N
+ Fid                       : 261
+ Tid                       : 2
+ Last statistic time       : {2017-09-20-00.08.57.564600}
+ Last statistic fabrication time       : {0000-00-00-00.00.00.000000}
+
+ Table space name          : USERSPACE1        
+
+ Index table space name    :                   
+
+ Tablespace ID             : 2
+ Index Tablespace ID       : 2
+ Long Tablespace ID        : 2
+ Alternate Collating Seq   : 0
+
+ Log Index Build           : NULL
+ Table not logged          : 0
+ Partitioning type         :  
+ Max free space search     : 999
+ Offset to partition info  : 5160
+ No. of unique constraints : 0
+ Table Percent free space  : 0
+ Row type id               : -2
+ Column id of ref-self col : -2
+ Row type schema length    : 0
+ Row type schema           : 
+ Row type name length      : 0
+ Row type name             : 
+ Specific PD offset        : 0
+ Append mode               : N
+ Delete / Insert counter   : 0
+ Generic PD offset         : 5176
+ Datapart PD offset        : 5728
+ External Table PD offset  : 0
+ Lock size                 : row
+ View content properties   : 0000000000
+ String Units              : S
+ SQL Compatibility Mode    : DB2
+ Environment ID            : 0
+ Volatile                  :  
+ Inoperative               :  
+ Full Constraint Enforced  : 0
+ Query Optimization Option : 0
+ Property of table (1)     : 0
+ Property of table (2)     : 0
+ Number of ADT columns     : 0
+
+ Global Temporary table     : NO
+ Created Global Temporary table: NO
+ On commit : INVALID VALUE
+ On commit :  
+ On rollback : INVALID VALUE
+ On commit :  
+ MDC                        : NO
+
+ FABRICATED STATISTICS      : NO
+
+ DGTT options              : 0
+ Avg Row Compression Ratio : 0,000000
+ Percentage of rows compressed : 0,000000
+ Avg length of compressed row  : 0
+ Avg row size               : 132
+ DataJoiner Pd offset      : 0
+ Offset directory          : 0
+ Dimension Info Offset     : 0
+ Number of Column Groups   : 0
+ Column Group Stats Offset : 0
+ Latest_statsrun Offset    : 6776
+ Stats Profile Offset      : 0
+ Stats Type                : U
+
+ Active Blocks             : 0
+ Number of QTB (simulated AST only) : 0
+ VALUE COMPRESSION           : NO
+ ROW COMPRESSION             : NO
+ ROW COMPRESSION MODE        : -
+ INTERNALLY CREATED TABLE    : NO
+
+ Generated partition key column altered : NO
+ detach source table schema length : 0
+ detach source table schema        : 
+ detach source table length        : 0
+ detach source table               : 
+ Records per page (0 = variable)   : 0
+ Protection Granularity            :  
+ Security Policy ID                : 0
+ Audit Policy ID                   : 0
+ Control                           : C
+ Extended Row Size                 : NO
+ Percentage of extended rows       : -1,000000
+
+
+          COLUMN DESCRIPTION
+          ------------------
+
+             
+ COLUMN NAME               : ID
+ Length of column name     : 2
+ Column id                 : 0
+ Col type {hex, type}      : 0x0001 ,  INTEGER 
+ Col dist. type {hex, type}: 0x0018 ,  INTEGER 
+ Column length             :      4 
+ Blob length               : 4
+ Statistic offset          : -1
+ Column String Units       : N
+ Flags                     : 0x20000010
+                             - SQLRG_MIXED
+ Flags2                    : 0x00000000
+ Codepage                  : 0
+ Collation name            : NOT_APPLICABLE
+ Collation ID in hex       : B'FF FF FF FF FF FF FF FF 
+ Length of user default    : 0
+ Logged                    : 0
+ Compact                   : 0
+ Inline Length             : 0
+ Datalink Features         : 000000
+ Ref. row type desc. offset: 0
+ No. unique values in col. : 10
+ Average column length     : 4
+ Expected Change Rate      : 1,000000
+ Percentage Encoded        : -1
+ Page Variance Ratio       : -1
+ Average encoded col len   : -1,000000
+ Source column ID          : 0
+ High2key and Low2key len. : 8
+ Avg column length in chars: -1
+ Delimiter length          : -1
+ Number of Subelements     : -1
+ Number of nulls           : 0
+ High2key                  : 9
+ Low2key                   : 2
+ Statistic Descriptor      : None
+ Security Label ID         : 0
+ 
+             
+ COLUMN NAME               : S1
+ Length of column name     : 2
+ Column id                 : 1
+ Col type {hex, type}      : 0x0101 ,  VARCHAR 
+ Col dist. type {hex, type}: 0x0038 ,  VARCHAR 
+ Column length             :     30 
+ Blob length               : 30
+ Statistic offset          : -1
+ Column String Units       : S
+ Flags                     : 0x200000b0
+                             - SQLRG_MIXED
+                             - SQLRG_DEFWVAL
+                             - SQLRG_NULLIND
+ Flags2                    : 0x00000000
+ Codepage                  : 1208
+ Collation name            : IDENTITY
+ Collation ID in hex       : B'00 00 00 02 FF 00 FF FF 
+ Length of user default    : 24
+ Logged                    : 0
+ Compact                   : 0
+ Inline Length             : 0
+ Datalink Features         : 000000
+ Ref. row type desc. offset: 0
+ No. unique values in col. : 1
+ Average column length     : 10
+ Expected Change Rate      : 0,100000
+ Percentage Encoded        : -1
+ Page Variance Ratio       : -1
+ Average encoded col len   : -1,000000
+ Source column ID          : 0
+ High2key and Low2key len. : 60
+ Avg column length in chars: 5
+ Delimiter length          : -1
+ Number of Subelements     : -1
+ Number of nulls           : 0
+ High2key                  : {Hello                         }
+ High2key in Hex Format    : 48656c6c6f20202020202020202020202020202020202020202020202020
+ Low2key                   : {Hello                         }
+ Low2key in Hex Format     : 48656c6c6f20202020202020202020202020202020202020202020202020
+ Statistic Descriptor      : None
+ Security Label ID         : 0
+ INSERT Default Type       : SQLRG_DEFAULT_EXPLICIT
+ INSERT Default (length)   : 5
+ INSERT Default            : {Hello}
+ EXIST Default Type        : SQLRG_DEFAULT_NONE
+ 
+             
+ COLUMN NAME               : S2
+ Length of column name     : 2
+ Column id                 : 2
+ Col type {hex, type}      : 0x0101 ,  VARCHAR 
+ Col dist. type {hex, type}: 0x0038 ,  VARCHAR 
+ Column length             :     40 
+ Blob length               : 40
+ Statistic offset          : -1
+ Column String Units       : 4
+ Flags                     : 0x200000b0
+                             - SQLRG_MIXED
+                             - SQLRG_DEFWVAL
+                             - SQLRG_NULLIND
+ Flags2                    : 0x00000000
+ Codepage                  : 1208
+ Collation name            : IDENTITY
+ Collation ID in hex       : B'00 00 00 02 FF 00 FF FF 
+ Length of user default    : 24
+ Logged                    : 0
+ Compact                   : 0
+ Inline Length             : 0
+ Datalink Features         : 000000
+ Ref. row type desc. offset: 0
+ No. unique values in col. : 1
+ Average column length     : 13
+ Expected Change Rate      : 0,100000
+ Percentage Encoded        : -1
+ Page Variance Ratio       : -1
+ Average encoded col len   : -1,000000
+ Source column ID          : 0
+ High2key and Low2key len. : 66
+ Avg column length in chars: 8
+ Delimiter length          : -1
+ Number of Subelements     : -1
+ Number of nulls           : 0
+ High2key                  : {Hi again                         }
+ High2key in Hex Format    : 486920616761696e20202020202020202020202020202020202020202020202020
+ Low2key                   : {Hi again                         }
+ Low2key in Hex Format     : 486920616761696e20202020202020202020202020202020202020202020202020
+ Statistic Descriptor      : None
+ Security Label ID         : 0
+ INSERT Default Type       : SQLRG_DEFAULT_EXPLICIT
+ INSERT Default (length)   : 8
+ INSERT Default            : {Hi again}
+ EXIST Default Type        : SQLRG_DEFAULT_NONE
+ 
+             
+ COLUMN NAME               : XDOC
+ Length of column name     : 4
+ Column id                 : 3
+ Col type {hex, type}      : 0x0112 ,  XML 
+ Col dist. type {hex, type}: 0x0090 ,  XML 
+ Column length             :     80 
+ Blob length               : 80
+ Statistic offset          : -1
+ Column String Units       : N
+ Flags                     : 0x00000090
+                             - SQLRG_MIXED
+                             - SQLRG_NULLIND
+ Flags2                    : 0x00000000
+ Codepage                  : 0
+ Collation name            : IDENTITY
+ Collation ID in hex       : B'00 00 00 02 FF 01 FF FF 
+ Length of user default    : 0
+ Logged                    : 0
+ Compact                   : 0
+ Inline Length             : 0
+ Datalink Features         : 000000
+ Ref. row type desc. offset: 0
+ No. unique values in col. : -1
+ Average column length     : 257
+ Expected Change Rate      : 0,000000
+ Percentage Encoded        : -1
+ Page Variance Ratio       : -1
+ Average encoded col len   : -1,000000
+ Source column ID          : 0
+ High2key and Low2key len. : 66
+ Avg column length in chars: -1
+ Delimiter length          : -1
+ Number of Subelements     : -1
+ Number of nulls           : -1
+ High2key                  : 
+ Low2key                   : 
+ Statistic Descriptor      : None
+ Security Label ID         : 0
+ 
+             
+ COLUMN NAME               : GENDATE
+ Length of column name     : 7
+ Column id                 : 4
+ Col type {hex, type}      : 0x0105 ,  DATE 
+ Col dist. type {hex, type}: 0x0064 ,  DATE 
+ Column length             :      4 
+ Blob length               : 4
+ Statistic offset          : -1
+ Column String Units       : N
+ Flags                     : 0x200060d0
+                             - SQLRG_MIXED
+                             - SQLRG_DEFAULT
+                             - SQLRG_NULLIND
+                             - SQLRG_GENERATED
+                             - SQLRG_GENALWAYS
+ Flags2                    : 0x00000000
+ Codepage                  : 0
+ Collation name            : NOT_APPLICABLE
+ Collation ID in hex       : B'FF FF FF FF FF FF FF FF 
+ Length of user default    : 0
+ Logged                    : 0
+ Compact                   : 0
+ Inline Length             : 0
+ Datalink Features         : 000000
+ Ref. row type desc. offset: 0
+ No. unique values in col. : 1
+ Average column length     : 5
+ Expected Change Rate      : 0,100000
+ Percentage Encoded        : -1
+ Page Variance Ratio       : -1
+ Average encoded col len   : -1,000000
+ Source column ID          : 0
+ High2key and Low2key len. : 8
+ Avg column length in chars: -1
+ Delimiter length          : -1
+ Number of Subelements     : -1
+ Number of nulls           : 0
+ High2key                  : {2017-10-05}
+ Low2key                   : {2017-10-05}
+ Statistic Descriptor      : None
+ Security Label ID         : 0
+ 
+             
+ COLUMN NAME               : ANOTHERID
+ Length of column name     : 9
+ Column id                 : 5
+ Col type {hex, type}      : 0x0001 ,  INTEGER 
+ Col dist. type {hex, type}: 0x0018 ,  INTEGER 
+ Column length             :      4 
+ Blob length               : 4
+ Statistic offset          : -1
+ Column String Units       : N
+ Flags                     : 0x20000090
+                             - SQLRG_MIXED
+                             - SQLRG_NULLIND
+ Flags2                    : 0x00000000
+ Codepage                  : 0
+ Collation name            : NOT_APPLICABLE
+ Collation ID in hex       : B'FF FF FF FF FF FF FF FF 
+ Length of user default    : 0
+ Logged                    : 0
+ Compact                   : 0
+ Inline Length             : 0
+ Datalink Features         : 000000
+ Ref. row type desc. offset: 0
+ No. unique values in col. : 4
+ Average column length     : 5
+ Expected Change Rate      : 0,400000
+ Percentage Encoded        : -1
+ Page Variance Ratio       : -1
+ Average encoded col len   : -1,000000
+ Source column ID          : 0
+ High2key and Low2key len. : 8
+ Avg column length in chars: -1
+ Delimiter length          : -1
+ Number of Subelements     : -1
+ Number of nulls           : 0
+ High2key                  : 4
+ Low2key                   : 3
+ Statistic Descriptor      : None
+ Security Label ID         : 0
+ 
+
+          INDEX DESCRIPTION
+          -----------------
+
+             
+ INDEX NAME  : SQL170725184826430
+ COLUMNS:
+  XDOC (Ascending)
+ Index name offset          : 944
+ Index column names offset  : 962
+ COLUMN NAME : +XDOC
+ Length of column names     : 5
+ Iid                        : 1
+ Creator length             : 8
+ Creator                    : SYSIBM  
+ Indcard                    : 10
+ Key1card                   : 10
+ Nleaf                      : 1
+ ix_seq_pages               : 0
+ ix_density                 : 0
+ Nlevel                     : 1
+ Cluster degree             : 100
+ Key2card                   : 10
+ Key3card                   : 10
+ Key4card                   : 10
+ Keycard                    : 10
+ Pseudo del entries         : 0
+ Num. pseudo empty pages    : 0
+ pfullkeycard               : 0
+ Numrids                    : 10
+ Percent pages saved        : 0
+ Create time                : {2017-07-25-18.48.25.404124}
+ Statistic time             : {2017-07-25-21.02.49.140501}
+ Index tablespace ID        : 2
+ EPFIS information          
+    Degree of clustering    : -1,000000
+    No. page fetch pairs    : 0
+ Index Percent free space   : 10
+ Index Level 2 percent free : -1
+ Type ID of subtable        : 0
+ Min. Used Space            : 0
+ Null Keys                  : Y
+ Allow Reverse Scans        : N
+ Index Object ID            : 261
+ Compression                : N
+ Average Sequence Pages     : 0,000000
+ Average Sequence Fetch Pgs : -1,000000
+ Average Random Fetch Pages : -1,000000
+ Average Sequence Fetch gap : -1,000000
+ Seq Cluster Degree         : 1,000000
+ Avg Seq Gap                : 0,000000
+ Random Pages Ratio         : 1,000000
+ avgleafkeysize             : 19
+ avgnleafkeysize            : 19
+ Internal format            : 2
+ Logical Name Offset        : 0
+
+ indexType                  : 0x0000024000000005
+ Unique                     : No
+ Not Enforced Key           : No
+ Primary Key                : No
+ System Defined Key         : Yes
+ Used as a unique constraint: No
+ Block index                : No
+ XML index:                   Yes
+ XML column path index:       No
+ XML regions index:           Yes
+ XML values index:            No
+ XML value physical index:    No
+ Index Page split           : Symmetric
+ Index compression          : No
+ No. of keys                : 1
+ No. of Unique keys         : 1
+ BUSINESS_TIME WITHOUT OVERLAPS   : No
+
+    Keypart 1
+    Keypart id              :  3
+    Keypart flags           : x0
+    Codepage                : 0
+    Description of keypart 
+         Type , Length      :  XML ,     80
+         Nullable           : 1
+
+
+ Extend Index Info 
+ indexType                  : 0x0000024000008005
+ Unique                     : No
+ Not Enforced Key           : No
+ Primary Key                : No
+ System Defined Key         : Yes
+ Used as a unique constraint: No
+ Block index                : No
+ Index compression          : No
+ No. of keys                : 4
+ No. of Unique keys         : 4
+
+    Keypart 1
+    Keypart id              : 65535
+    Keypart flags           : x0
+    Codepage                : 0
+    Description of keypart 
+         Type , Length      :  BIG INTEGER ,      8
+         Nullable           : 2
+
+
+    Keypart 2
+    Keypart id              : 65535
+    Keypart flags           : x0
+    Codepage                : 0
+    Description of keypart 
+         Type , Length      :  BIG INTEGER ,      8
+         Nullable           : 2
+
+
+    Keypart 3
+    Keypart id              : 65535
+    Keypart flags           : x0
+    Codepage                : 0
+    Description of keypart 
+         Type , Length      :  VARBINARY ,    125
+         Nullable           : 2
+
+
+    Keypart 4
+    Keypart id              : 65535
+    Keypart flags           : x0
+    Codepage                : 0
+    Description of keypart 
+         Type , Length      :  VARBINARY ,    125
+         Nullable           : 2
+
+             
+ INDEX NAME  : SQL170725184827100
+ COLUMNS:
+  XDOC (Ascending)
+ Index name offset          : 928
+ Index column names offset  : 946
+ COLUMN NAME : +XDOC
+ Length of column names     : 5
+ Iid                        : 2
+ Creator length             : 8
+ Creator                    : SYSIBM  
+ Indcard                    : 8
+ Key1card                   : 3
+ Nleaf                      : 1
+ ix_seq_pages               : 0
+ ix_density                 : 0
+ Nlevel                     : 1
+ Cluster degree             : -1
+ Key2card                   : 8
+ Key3card                   : 8
+ Key4card                   : -1
+ Keycard                    : 8
+ Pseudo del entries         : -1
+ Num. pseudo empty pages    : 0
+ pfullkeycard               : 0
+ Numrids                    : -1
+ Percent pages saved        : 0
+ Create time                : {2017-07-25-18.48.25.404124}
+ Statistic time             : {2017-07-25-21.02.49.140501}
+ Index tablespace ID        : 2
+ EPFIS information          
+    Degree of clustering    : -1,000000
+    No. page fetch pairs    : 0
+ Index Percent free space   : 10
+ Index Level 2 percent free : -1
+ Type ID of subtable        : 0
+ Min. Used Space            : 0
+ Null Keys                  : Y
+ Allow Reverse Scans        : N
+ Index Object ID            : 261
+ Compression                : N
+ Average Sequence Pages     : 0,000000
+ Average Sequence Fetch Pgs : -1,000000
+ Average Random Fetch Pages : -1,000000
+ Average Sequence Fetch gap : -1,000000
+ Seq Cluster Degree         : 0,125000
+ Avg Seq Gap                : 0,000000
+ Random Pages Ratio         : 1,000000
+ avgleafkeysize             : 29
+ avgnleafkeysize            : 25
+ Internal format            : 2
+ Logical Name Offset        : 0
+
+ indexType                  : 0x0000022000000004
+ Unique                     : Yes
+ Not Enforced Key           : No
+ Primary Key                : No
+ System Defined Key         : Yes
+ Used as a unique constraint: No
+ Block index                : No
+ XML index:                   Yes
+ XML column path index:       Yes
+ XML regions index:           No
+ XML values index:            No
+ XML value physical index:    No
+ Index Page split           : Symmetric
+ Index compression          : No
+ No. of keys                : 1
+ No. of Unique keys         : 1
+ BUSINESS_TIME WITHOUT OVERLAPS   : No
+
+    Keypart 1
+    Keypart id              :  3
+    Keypart flags           : x0
+    Codepage                : 0
+    Description of keypart 
+         Type , Length      :  XML ,     80
+         Nullable           : 1
+
+
+ Extend Index Info 
+ indexType                  : 0x0000022000008004
+ Unique                     : Yes
+ Not Enforced Key           : No
+ Primary Key                : No
+ System Defined Key         : Yes
+ Used as a unique constraint: No
+ Block index                : No
+ Index compression          : No
+ No. of keys                : 3
+ No. of Unique keys         : 2
+
+    Keypart 1
+    Keypart id              : 65535
+    Keypart flags           : x0
+    Codepage                : 0
+    Description of keypart 
+         Type , Length      :  CHAR ,      1
+         Nullable           : 2
+
+
+    Keypart 2
+    Keypart id              : 65535
+    Keypart flags           : x0
+    Codepage                : 0
+    Description of keypart 
+         Type , Length      :  VARBINARY ,   1000
+         Nullable           : 2
+
+
+    Keypart 3
+    Keypart id              : 65535
+    Keypart flags           : x0
+    Codepage                : 0
+    Description of keypart 
+         Type , Length      :  INTEGER ,      4
+         Nullable           : 2
+
+             
+ INDEX NAME  : SQL170725184827260
+ COLUMNS:
+  ID (Ascending)
+ Index name offset          : 872
+ Index column names offset  : 890
+ COLUMN NAME : +ID
+ Length of column names     : 3
+ Iid                        : 3
+ Creator length             : 8
+ Creator                    : SYSIBM  
+ Indcard                    : 10
+ Key1card                   : 10
+ Nleaf                      : 1
+ ix_seq_pages               : 0
+ ix_density                 : 0
+ Nlevel                     : 1
+ Cluster degree             : 100
+ Key2card                   : -1
+ Key3card                   : -1
+ Key4card                   : -1
+ Keycard                    : 10
+ Pseudo del entries         : 0
+ Num. pseudo empty pages    : 0
+ pfullkeycard               : 0
+ Numrids                    : 10
+ Percent pages saved        : 0
+ Create time                : {2017-07-25-18.48.25.404124}
+ Statistic time             : {2017-07-25-21.02.49.140501}
+ Index tablespace ID        : 2
+ EPFIS information          
+    Degree of clustering    : -1,000000
+    No. page fetch pairs    : 0
+ Index Percent free space   : 10
+ Index Level 2 percent free : -1
+ Type ID of subtable        : 0
+ Min. Used Space            : 0
+ Null Keys                  : Y
+ Allow Reverse Scans        : Y
+ Index Object ID            : 261
+ Compression                : N
+ Average Sequence Pages     : 0,000000
+ Average Sequence Fetch Pgs : -1,000000
+ Average Random Fetch Pages : -1,000000
+ Average Sequence Fetch gap : -1,000000
+ Seq Cluster Degree         : 1,000000
+ Avg Seq Gap                : 0,000000
+ Random Pages Ratio         : 1,000000
+ avgleafkeysize             : 4
+ avgnleafkeysize            : 4
+ Internal format            : 2
+ Logical Name Offset        : 0
+
+ indexType                  : 0x0000000000000106
+ Unique                     : Yes
+ Not Enforced Key           : No
+ Primary Key                : Yes
+   Orig. created non-unique : No
+ System Defined Key         : Yes
+ Used as a unique constraint: No
+ Block index                : No
+ XML index:                   No
+ Index Page split           : Symmetric
+ Index compression          : No
+ No. of keys                : 1
+ No. of Unique keys         : 1
+ BUSINESS_TIME WITHOUT OVERLAPS   : No
+
+    Keypart 1
+    Keypart id              :  0
+    Keypart flags           : x0
+    Codepage                : 0
+    Description of keypart 
+         Type , Length      :  INTEGER ,      4
+         Nullable           : 2
+
+
+          PARTITIONING KEY DESCRIPTION
+          ----------------------------
+
+ Multiple node(TRUE/FALSE) : FALSE
+ Node number               : 0
+ Partition map id          : 1
+ No partition columns      : 0
+ Column id's               : 
+
+          Data Partitioning DESCRIPTION
+          -----------------------------
+
+ Flags                     : 
+ Number partitions         : 1
+ Number partitioning cols  : 0
+ MAX Data Partition ID     : 1
+
+ Partitions:
+   [0]	doid {2, 261} ridDepCount 0 datapartID 0 indexTbsp 2 indexObjId 261 longTbsp 2 flags 0x0
+
+
+ data partition ID map:
+
+        0 
+
+          LATEST RAN STATISTIC PROFILE
+          ----------------------------
+
+             
+ Length                                        : 200
+ Number of columns to collect statistic        : 6
+ Number of columns to collect dist. statistic  : 0
+ Number of column group to collect statistic   : 0
+ Number of index to collect statistic          : 3
+ Sampling percentage                           : 100,000000
+ Index sampling percentage                     : 100,000000
+ Throttle level (util_impact_priority)         : 0
+ Default number of frequent values             : 10
+ Default number of quantiles                   : 20
+ Single node option (TRUE/FALSE)               : TRUE
+ Allow access option (TRUE/FALSE)              : TRUE
+ Number of nodes                               : 1
+ Offset to column list                         : 104
+ Offset to column dist. list                   : 0
+ Offset to column group list                   : 0
+ Offset to index list                          : 152
+
+ Basic stats on all columns                    : TRUE
+
+ Per node cardinality : 
+    Node number      Node card
+     0                10
+
+ Column List : 
+    Column Id        Like Stats (YES/NO)
+     0                NO
+     1                NO
+     2                NO
+     3                NO
+     4                NO
+     5                NO
+
+ Index List : 
+    Index IID        Index Stats Option
+     1                Sample Detailed
+     2                Sample Detailed
+     3                Sample Detailed
+
+
+
+ ===== ==== ==== ==== ==== ==== ==== ==== ==== ==  = 
+XmlrnStatsInfo Packed Descriptor
+
+Leaf values are represented as strings 
+and are formatted as 
+    <len of str>:<str>
+ ===== ==== ==== ==== ==== ==== ==== ==== ==== ==  = 
+No. of XmlrnStats objects = 1
+----------------------------------------
+++++++++++++++++++++++++++++++++++++++++
+XML column statistics 
+++++++++++++++++++++++++++++++++++++++++
+Column ID            = 3
+No. NULL XML docs    = 0
+No. non-NULL XML docs = 10
+Smallest XML doc size = 166
+Largest XML doc size  = 174
+Avg XML doc size      = 171
+No. inlined docs      = 0
+----------------------------------------
+Catch All Pathid Bucket
+----------------------------------------
+Distinct Pathid count = 7
+Sum Node Counts       = 30
+Sum Doc Counts        = 30
+----------------------------------------
+Top-k Pathid node counts
+----------------------------------------
+Max no. of path counts = 1
+Cur no. of path counts = 1
+Cnt( /root()/a ) = 10
+----------------------------------------
+Top-k Pathid doc counts
+----------------------------------------
+Max no. of path counts = 1
+Cur no. of path counts = 1
+Cnt( /root()/a ) = 10
+----------------------------------------
+Top-k Pathid-Value node counts
+----------------------------------------
+Max no. of path-value counts = 0
+Cur no. of path-value counts = 0
+----------------------------------------
+Top-k Pathid-Value doc counts
+----------------------------------------
+Max no. of path-value counts = 0
+Cur no. of path-value counts = 0
+----------------------------------------
+Catch All Pathid-Value Bucket
+----------------------------------------
+Max no. of buckets = 3
+Cur no. of buckets = 3
+----------------------------------------
+PathID             = /root()/a/d/text()
+Distinct Value Cnt = 2
+2nd Highest Key    = 18:markup or markdown
+2nd Lowest Key     = 11:good or bad
+Sum Node Cnt       = 2
+Sum Doc Cnt        = 2
+Data Type of Keys  = String
+----------------------------------------
+PathID             = /root()/a/c/text()
+Distinct Value Cnt = 2
+2nd Highest Key    = 18:markup or markdown
+2nd Lowest Key     = 11:good or bad
+Sum Node Cnt       = 2
+Sum Doc Cnt        = 2
+Data Type of Keys  = String
+----------------------------------------
+PathID             = /root()/a/b/text()
+Distinct Value Cnt = 2
+2nd Highest Key    = 18:markup or markdown
+2nd Lowest Key     = 11:good or bad
+Sum Node Cnt       = 6
+Sum Doc Cnt        = 6
+Data Type of Keys  = String
+----------------------------------------
+----------------------------------------
+Histograms on XML Column
+Max number Histograms = 0
+-----------------------------------------------------------------
+VIEW PACKED DESCRIPTOR:
+
+No view packed descriptor.
+-----------------------------------------------------------------
+CONSTRAINTS PACKED DESCRIPTOR:
+
+
+       CHECK CONSTRAINT DESCRIPTOR HEADER
+       ----------------------------------
+
+ Length of descriptor           : 384
+ Release number                 : 0x1400
+ No. of check constraints       : 1
+ No. of columns referenced      : 1
+ No. of vector arrays           : 1
+ Column IDs {ID, bit-vector..}  : 4, 00000001
+
+
+ CONSTRAINT NAME                : SQL170725184827440
+ Length of constraint name      : 18
+ Default schema length          : 8
+ Default schema                 : HLOESER 
+ Table qualifier length         : 8
+ Table qualifier                : HENRIK  
+ Table name length              : 8
+ Table name                     : CATTABLE
+ Create time                    : {2017-07-25-18.48.25.404124}
+ String units                   : S
+ SQL Compatibility Mode         : DB2
+ Environment ID                 : 0
+
+ Sqlmathwarn at creation        : N
+ Default collation name    : IDENTITY
+ Default collation ID in hex: B'00 00 00 02 FF 00 FF FF 
+ Default order-by collation name: IDENTITY
+ Default order-by collation ID in hex: B'00 00 00 02 FF 00 FF FF 
+ Flags                          : SYSGEN ASSIGN
+
+ Target for assign constraint   : 4
+ Rowtype ID                     : -2
+ Logical Name Offset            : 0
+
+
+ Length of function path         : 41
+ Function Path element lengths  : 
+	8,8,8,9,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+	0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ Function path                  :[SYSIBM  SYSFUN  SYSPROC SYSIBMADMHLOESER ]
+ Length of constraint stmt      : 27
+ Constraint select statement    :["GENDATE" =  ('2017-10-05')]
+
+
+ Percent Valid                  : 100
+
+
+ Routine ID list offset   : 0
+
+
+
+-----------------------------------------------------------------
+REFERENTIAL PACKED DESCRIPTOR:
+
+
+       REFERENTIAL CONSTRAINT DESCRIPTOR HEADER
+       ----------------------------------------
+
+ db2cat generated pd            : N
+ Length of descriptor           : 88
+ Release number                 : 0x1400
+ No. of relationships           : 1
+ No. of parent tables           : 0
+ No. of dependent tables        : 0
+ No. of self-ref constraints    : 1
+
+ CONSTRAINT NAME                : FKFUN
+ Length of constraint name      : 5
+ Parent/Dep table schema length : 8
+ Parent/Dep table schema        : HENRIK  
+ Length of table name           : 8
+ Name of parent/dep table       : CATTABLE
+ No. of columns in Foreign key  : 1
+ Delete_rule                    : A
+ Update_rule                    : A
+ Relationship to object table   : SELF_REFERENCING
+ Typeid of logical child table  : -2
+ Typeid of logical parent table : -2
+ Logical Name Offset            : 0
+ Columns IDs of Foreign key     : 5 
+ Columns IDs of Unique keys     : 0 
+ Flags                          : none
+-----------------------------------------------------------------
+TRIGGER PACKED DESCRIPTOR:
+
+
+       TRIGGER DESCRIPTOR HEADER
+       -------------------------
+
+ Trigger descriptor length  : 576
+ No. of trigger records     : 1
+
+
+ TRIGGER NAME                   : CATTABLE_TRIG
+ Release number                 : 0x1400
+ Length of the descriptor record: 568
+ Trigger valid flag             : Y
+ Sqlmathwarn at creation        : N
+ Length of trigger name         : 13
+ Default schema length          : 8
+ Default schema                 : HLOESER 
+ Trigger schema length          : 8
+ Trigger schema                 : HENRIK  
+ Create time                    : {2017-07-25-18.48.27.704893}
+ Regeneration time              : {2017-07-25-18.48.27.704893}
+ Alter time                     : {2017-07-25-18.48.27.704893}
+ Rowtype ID                     : -2
+ Logical Name Offset            : 0
+ No. of columns for UPDATE event: 1
+ Col IDs for UPDATE event       : 4 
+ No. of columns for set-clauses : 0
+ Col IDs for set-clauses        : 
+ No. of base tables             : 1
+ Action time                    : SQLNQ_AfterTime
+ Event that fires trigger       : SQLNQ_UpdateEvnt
+ Granularity                    : SQLNQ_ForEachStmt
+ Flags                          : SECURED = TRUE
+ Default collation name    : IDENTITY
+ Default collation ID in hex: B'00 00 00 02 FF 00 FF FF 
+ Default order-by collation name: IDENTITY
+ Default order-by collation ID in hex: B'00 00 00 02 FF 00 FF FF 
+ String units                   : S
+ SQL Compatibility Mode         : DB2
+ Environment ID                 : 0
+
+ TID, FID, numcols             : 2, 261, 6
+
+ Function Path Element Lengths : 
+	8,8,8,9,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+	0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ Length of function path        : 41
+ Trigger function path          :[SYSIBM  SYSFUN  SYSPROC SYSIBMADMHLOESER ]
+ Length of trigger statement    : 206
+ Trigger statement              :[create trigger henrik.cattable_trig after upd]
+                                 [ate of gendate on henrik.cattable
+referencing]
+                                 [ new table AS ntable
+     for each statement ]
+                                 [secured
+     BEGIN ATOMIC
+     select 1 from ]
+                                 [sysibm.sysdummy1;
+     END]
+ Size of PVM program info       : 0
+
+
+ Routine ID list offset   : 0
+
+
+-----------------------------------------------------------------
+SYSTABLES.REMOTE_DESC:
+
+No remote packed descriptor.
+-----------------------------------------------------------------
+AST PACKED DESCRIPTOR:
+
+No ast packed descriptor.
+-----------------------------------------------------------------
+CONTROLS PACKED DESCRIPTOR:
+
+
+       CONTROLS DESCRIPTOR HEADER
+       --------------------------
+
+ Controls descriptor length  : 1400
+ Number of controls          : 1
+ Number of permissions       : 0
+ Number of masks             : 1
+
+ CONTROL NAME                   : S2MASK
+ Control name length            : 6
+ Control schema                 : HENRIK  
+ Control schema length          : 8
+ Control type                   : C
+ Table name                     : CATTABLE
+ Table name length              : 8
+ Column name                    : S2
+ Column name length             : 2
+ Table correlation name         : 
+ Table correlation name length  : 0
+ Control enable                 : Y
+ Control valid                  : Y
+ Control implicit               : N
+ Control enforced               : A
+ Control owner                  : HLOESER 
+ Control owner length           : 8
+ Control owner type             : U
+ Length of the descriptor       : 1376
+ Control ID                     : 2
+ Create time                    : {2017-07-25-18.48.27.622142}
+ Alter time                     : {2017-07-25-18.48.27.622142}
+ Qualifier schema               : HLOESER 
+ Qualifier schema length        : 8
+ Function Path Element Lengths  : 
+	8,8,8,9,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+	0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ Length of function path        : 41
+ Control function path          :[SYSIBM  SYSFUN  SYSPROC SYSIBMADMHLOESER ]
+ Default collation name         : IDENTITY
+ Default collation ID in hex: B'00 00 00 02 FF 00 FF FF 
+ Default order-by collation name: IDENTITY
+ Default order-by collation ID in hex: B'00 00 00 02 FF 00 FF FF 
+ String units                   : S
+ SQL Compatibility Mode         : DB2
+ Environment ID                 : 0
+ Length of rule text            : 72
+ Control rule text              :[case when current date='2017-10-05'  then 'We]
+                                 [lcome to IDUG' else S2 end ]
