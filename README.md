@@ -7,7 +7,9 @@ This repository holds add-on material for my my talk "Db2 Catalog - A Guided Tou
 * ...
 
 ### Packed Descriptor
-The files `cattable.out` and `cattable2.out` were produced running [`db2cat`](https://www.ibm.com/docs/en/db2/11.5?topic=commands-db2cat-system-catalog-analysis) after creating the objects with the SQL script. One file includes XML statistics, the other not.
+The files `cattable.out` and `cattable2.out` were produced running [`db2cat`](https://www.ibm.com/docs/en/db2/11.5?topic=commands-db2cat-system-catalog-analysis) after creating the objects with the SQL script. One file includes XML statistics, the other not. (Db2 11.1)
+
+The file `cattable2023.out` was produced for the table created with `cattable2023.sql` and includes XML statistics. (Db2 11.5)
 
 ### Reference Links
 Some links related to my presentation (Version 11.5 - you may switch to current or earlier version):
